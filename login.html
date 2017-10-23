@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h1 class="text-center">Great to see you again! </h1>
+  <div class="container">
+    <div id="validate"></div>
+  </div>
+</header>
+<div class="container">
+  <form id="login">
+    <div class="wrap-input-text">
+      <input type="text" placeholder="Username / email" id="username">
+      <label for="username" class="label">Username / email</label>
+      <div class="underline"></div>
+    </div>
+    <div class="wrap-input-text">
+      <input type="password" placeholder="Password" id="password"><span class="info">Type 6 characters or more</span>
+      <label for="username" class="label" for="password">Password</label>
+      <div class="underline"></div>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <div class="wrap">
+    <div class="download-app">
+      <div class="float-left"><a href="#" class="float-left">Forgot Password?</a></div>
+      <div class="float-right"><p class="float-right">Don't have an account? <a href="register.html">Get started</a></p></div>
+    </div>
+    <div class="clear"></div>
+    <div class="download-app">
+      <p class="text-center">Looking for Mac app? <a href="#">Download here</a></p>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

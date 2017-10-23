@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h1 class="text-center">Great to see you again! </h1>
+  <div class="container">
+    <div id="validate"></div>
+  </div>
+</header>
+<div class="container">
+  <form id="register">
+    <div class="wrap-input-text">
+      <input type="email" placeholder="Email" id="email"><span class="info">We’ll send an email to this address for verification</span>
+      <label for="email" class="label">Email</label>
+      <div class="underline"></div>
+    </div>
+    <div class="wrap-input-text">
+      <input type="text" placeholder="Username" id="username">
+      <label for="username" class="label" for="username">Username</label><span class="info">All your team members will see your username ;) only use letters, numbers and ‘_’.<br>Sample: aryastark</span>
+      <div class="underline"></div>
+    </div>
+    <div class="wrap-input-text">
+      <input type="password" placeholder="Password" id="password"><span class="info">Type 6 characters or more</span>
+      <label for="password" class="label">Password</label>
+      <div class="underline"></div>
+    </div>
+    <button type="submit">Sign up FREE</button>
+  </form>
+</div>
+<div class="download-app">
+  <p class="text-center">Already have an account? <a href="login.html">Login here</a></p></div>
+<div class="download-app">
+  <p class="text-center">By clicking ‘Sign up FREE’, I agree to <a href="#">Terms of Service</a></p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

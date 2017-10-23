@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+  color: #574751;
+  margin: 0;
+}
+header {
+  padding: 124px 0 0 0;
+}
+/* =Utilities */
+.container {
+  width: 392px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.wrap {
+  padding: 0 16px;
+}
+a {
+  color: #c8cf2d;
+  text-decoration: none;
+  opacity: 1;
+}
+/* =Form */
+form {
+  width: 100%;
+}
+form input {
+  border: 0;
+  width: 100%;
+  line-height: 24px;
+  height: 40px;
+  font-size: 18px;
+  color: #574751;
+  box-shadow: unset;
+}
+form input:focus {
+  border: none;
+  outline: none;
+  outline: -webkit-focus-ring-color auto 0px;
+
+}
+form .wrap-input-text {
+  position: relative;
+  padding: 35px 16px 8px;
+}
+form .wrap-input-text.focus .underline {
+  background-color: #fdbd39;
+  height: 1px;
+}
+form .wrap-input-text.typed .underline {
+  background-color: #ee6723;
+  height: 1px;
+}
+form .wrap-input-text label {
+  position: absolute;
+  left: 16px;
+  top: 46px;
+  opacity: 0;
+  font-size: 18px;
+  color: #bcb5b9;
+  transform-origin: left top;
+  transition: color 200ms ease, transform 200ms ease;
+  will-change: transform;
+  pointer-events: none;
+}
+form .wrap-input-text.typed label {
+  opacity: 1;
+  transform: translateY(-27px) scale(0.78);
+}
+button {
+  width: calc(100% - 32px);
+  margin: 8px 16px 12px;
+  height: 60px;
+  background-color: #fdbd39;
+  color: #fff;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.underline {
+  width: 100%;
+  background-color: lightgrey;
+  height: 1px;
+}
+.download-app {
+  margin: 12px 0;
+  font-size: 14px;
+}
+.download-app p {
+  margin: 0;
+  padding: 0;
+  color: #bcb5b9;
+}
+.info {
+  display: none;
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  max-width: 280px;
+  transform: translateX(100%);
+  font-family: Nanum, Helvetica, sans-serif;
+  line-height: 19px;
+  font-size: 16px;
+  color: #574751;
+}
+form .wrap-input-text.focus .info {
+  display: block;
+  font-family: 'Grand Hotel', cursive;
+}
+#validate {
+  padding: 35px 16px 8px;
+}
+#validate span {
+  color: red;
+  margin-bottom: 8px;
+}
